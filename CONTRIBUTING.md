@@ -7,14 +7,8 @@ Ask for assignment **before** you begin working on an issue
 To get started with development, fork and clone the repo (you'll need [pipenv](https://pypi.org/project/pipenv/)):
 ```shell
 $ git clone https://github.com/YourUser/CodeReview
-```
-Then, create a venv and install all requirements
-```shell
 $ pipenv install --dev
 $ pipenv shell
-```
-Now, start the development server
-```shell
 $ python manage.py runserver your.ip.address:port
 ```
 
